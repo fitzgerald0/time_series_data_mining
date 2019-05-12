@@ -1,3 +1,10 @@
 # zzyy
 
-TensorFlow Probability概率编程-时序模型
+本文使用TensorFlow Probability这一新的概率编程工具，通过实例简单介绍其中的时间序列建模。
+
+运行环境：
+CentOS Linux 7.4；
+
+tensorflow ==1.13.1 ;
+
+ tensorflow-probability==0.6.0
