@@ -10,3 +10,4 @@ tensorflow-probability==0.6.0
 
 具体信息请关注微信公众号：数据天团
 
+该文件夹中包括数据文件和python程序
