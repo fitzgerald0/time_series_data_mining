@@ -145,14 +145,8 @@ def get_mape(data_t,forecsat):
 if __name__ == '__main__':
     
     #读取数据集
-    data=pd.read_csv("../input/example_ts.csv")
-    data=data[data['ym']!='2016-12-01']
-    data=data[data['ym']!='2019-03-01']
-    
-    data_t=data[data['goods_code']==500007351]
-    data_t.drop(columns=['goods_code'],inplace=True)
-    data_t.to_csv('../input/ts_sale.csv',index=False)
-    #data_t=pd.read_csv("../input/ts_sale.csv")
+
+    data_t=pd.read_csv("../input/ts_sale.csv")
     data_t=data_t[['sale','ym']]
     data_t=data_t.set_index('ym')
     #data_t.to_csv('/input/ts_sale')
