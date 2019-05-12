@@ -8,8 +8,6 @@ import gc
 from matplotlib import pylab as plt
 import seaborn as sns
 
-
-import collections
 import numpy as np
 import tensorflow as tf
 import tensorflow_probability as tfp
