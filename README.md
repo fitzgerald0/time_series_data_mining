@@ -13,6 +13,7 @@ CentOS Linux 7.4；
 tensorflow ==1.13.1 ;
 tensorflow-probability==0.6.0
 
+
 具体信息请关注微信公众号：数据天团
 
 More details,please attention to Wechat public account
@@ -22,4 +23,5 @@ More details,please attention to Wechat public account
 This file consist of data and python script
 -------------------------------------------------------------------------------------
 2
-本文介绍使用tsfresh库进行时序 freature extract,结合lasso进行建模
+本文介绍使用tsfresh库进行时序 freature extract,结合lasso进行建模；
+程序为Use_Tsfresh_build_lasso_model.py文件
