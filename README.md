@@ -13,6 +13,8 @@ CentOS Linux 7.4；
 tensorflow ==1.13.1 ;
 tensorflow-probability==0.6.0
 
+程序：ts_sale_example.py
+数据：ts_sale.csv
 
 具体信息请关注微信公众号：数据天团
 
