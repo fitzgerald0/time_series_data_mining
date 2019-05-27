@@ -6,7 +6,7 @@
 1
 本文使用TensorFlow Probability这一新的概率编程工具，通过实例简单介绍其中的时间序列建模。
 This demo use TensorFlow Probability for time series model 
-
+-----------------------------------------------------------------------------------
 运行环境：
 Runtime environment:
 CentOS Linux 7.4；
@@ -28,4 +28,5 @@ This file consist of data and python script
 本文介绍使用tsfresh库进行时序 freature extract,结合lasso进行建模；
 程序为Use_Tsfresh_build_lasso_model.py文件
 -------------------------------------------------------------------------------------
-一篇个人最近看书杂谈
+一篇个人最近看书杂谈，数据之外的代码
+-------------------------------------------------------------------------------------
