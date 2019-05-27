@@ -27,3 +27,5 @@ This file consist of data and python script
 2
 本文介绍使用tsfresh库进行时序 freature extract,结合lasso进行建模；
 程序为Use_Tsfresh_build_lasso_model.py文件
+-------------------------------------------------------------------------------------
+一篇个人最近看书杂谈
