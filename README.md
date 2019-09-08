@@ -30,7 +30,8 @@ This file consist of data and python script
 
 【3】
 本文延续一个月前推送的销量预测模型系列，从传统的时间序列SARIMAX 算法讲解销量预测模型
-程序/script:
+程序/script:sarimax_model.py
+
 数据/data_set:sale_df.xlsx
 
 -------------------------------------------------------------------------------------
