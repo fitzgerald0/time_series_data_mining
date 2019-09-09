@@ -9,8 +9,6 @@ import time
 from itertools import product
 import numpy as np
 import pandas as pd
-from math import sqrt
-# from multiprocessing import cpu_count
 from joblib import Parallel, delayed
 import warnings
 
@@ -98,7 +96,6 @@ def sarima_configs(seasonal=[0]):
 
 # 模型训练
 def train_model(sale_df):
-    sum_ = 0
     n_test = 3
     p_b, d_b, q_b = [], [], []
     P_b, D_b, Q_b = [], [], []
