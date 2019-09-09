@@ -141,7 +141,6 @@ def forecast_model(sale_df, params_df):
     fore_list = []
     model_id = []
     for i in sale_df['store_code'].unique():
-        params_list = params_df[params_df['store_code'] == i]
         data = sale_df[sale_df['store_code'] == i]['y']
         p = params_df[params_df['store_code'] == i].iloc[:, 2].values[0]
         d = params_df[params_df['store_code'] == i].iloc[:, 3].values[0]
