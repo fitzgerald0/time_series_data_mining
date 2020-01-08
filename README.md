@@ -18,6 +18,8 @@ tensorflow-probability==0.6.0
 
 具体信息请关注微信公众号：数据天团
 
+个人微信号：Fitzgerald-w
+
 More details,please attention to Wechat public account
 
 该文件夹中包括数据文件和python程序
