@@ -1,5 +1,6 @@
 # znyy
 本文件主要为个人发表在部门公众号上的文章涉及到的程序和数据
+#
 当前更新时间为：2020-01-18
 有几篇关于时间序列的文章
 -----------------------------------------------------------------------------------
@@ -17,8 +18,10 @@ tensorflow-probability==0.6.0
 数据：ts_sale.csv
 
 具体信息请关注微信公众号：数据天团
-
 个人微信号：Fitzgerald-w
+
+同时个人csdn也会同步
+https://blog.csdn.net/fitzgerald0
 
 More details,please attention to Wechat public account
 
