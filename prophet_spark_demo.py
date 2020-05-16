@@ -6,13 +6,6 @@ Author : hjs
 """
 
 
-# -*- coding:utf-8 -*-
-"""
-Name  : prophet_spark_v2.py
-Time  : 2020/5/13 10:28
-Author : hjs
-"""
-
 import datetime
 from dateutil.relativedelta import relativedelta
 from fbprophet import Prophet
