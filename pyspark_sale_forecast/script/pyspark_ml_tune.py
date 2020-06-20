@@ -5,8 +5,8 @@ Time  : 2020/6/20 17:26
 Author : hjs
 """
 
-
 """
+
 tune the  best param for linear model
 
 """
@@ -36,6 +36,7 @@ spark = SparkSession. \
 
 today = (datetime.datetime.today()).strftime('%Y-%m-%d')
 update_time = str(datetime.datetime.now().strftime('%b-%m-%y %H:%M:%S')).split(' ')[-1]
+
 #spark.sql数据读取
 df = spark.sql("""
 select store_code,goods_code,ds,qty as label
