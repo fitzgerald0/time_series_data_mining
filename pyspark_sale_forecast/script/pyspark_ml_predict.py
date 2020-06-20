@@ -41,7 +41,7 @@ df = spark.sql(f"""
     ) s on 1=1""")
 
 #读取最佳参数
-best_param_set=spark.sql(f"select regparam,fitIntercept, elasticNetParam from scmtemp.regression_model_best_param order by update_date desc,update_time desc limit 1 ").collect()
+best_param_set=spark.sql(f"select regparam,fitIntercept, elasticNetParam from xxx.regression_model_best_param order by update_date desc,update_time desc limit 1 ").collect()
 
 reg_vec=best_param_set.select('regparam')
 reg_b= [row.regparam for row in reg_vec][0]
