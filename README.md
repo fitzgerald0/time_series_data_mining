@@ -3,8 +3,8 @@
 同时个人csdn也会同步
 https://blog.csdn.net/fitzgerald0
 #
-最近更新时间为：2020-05-16
-新增:spark_prophet_demo
+最近更新时间为：2020-07-20
+
 #
 有几篇关于时间序列的文章
 -----------------------------------------------------------------------------------
@@ -35,6 +35,19 @@ https://blog.csdn.net/fitzgerald0/article/details/104029842
 multi_prophet_model.py为多进程prophet模型代码
 spark_prophet_demo.py为pyspark模型代码
 
+
+【5】基于PySpark的销量预测
+
+文章：https://blog.csdn.net/fitzgerald0/article/details/106885568
+
+代码：https://github.com/fitzgerald0/time_series_data_mining/tree/master/pyspark_sale_forecast/script
+
+
+【6】PySpark-prophet预测
+
+文章：https://blog.csdn.net/fitzgerald0/article/details/106157008
+
+代码：https://github.com/fitzgerald0/time_series_data_mining/blob/master/spark_prophet_demo.py
 -------------------------------------------------------------------------------------
 一篇个人最近看书杂谈
 -------------------------------------------------------------------------------------
