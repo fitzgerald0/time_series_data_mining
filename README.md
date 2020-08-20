@@ -1,4 +1,4 @@
-# znyy
+#
 本代码仓主要为个人发表写所写时间序列数据挖掘方面的文章
 同时个人csdn也会同步
 https://blog.csdn.net/fitzgerald0
