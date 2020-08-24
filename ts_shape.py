@@ -12,11 +12,12 @@ import matplotlib.pyplot as plt
 plt.figure(figsize=(8, 4))
 from tslearn.clustering import silhouette_score
 
+
 """
-1.数据读取与预处理
-2.计算轮廓系数
-3.求出轮廓系数最大时的k值大小
-4.
+1.数据读取与预处理（序列填充，使每条序列等长）
+2.计算轮廓系数，求出轮廓系数最大时的聚类个数k
+3.使用最佳聚类个数，得到序列聚类标签
+4.可视化，绘制elbow线图辅助检验聚类个数是否合理，同时绘制不同序列的聚类效果图。
 """
 
 class Plot_Cluster_Time_Series(object):
@@ -140,10 +141,8 @@ def main():
     pcts.plot_elbow(input_df)
     return fin_cluster
 
-
 if __name__ == '__main__':
     fin_cluster = main()
 
-
-
+   
 
