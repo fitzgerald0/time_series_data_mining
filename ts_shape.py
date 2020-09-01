@@ -52,6 +52,8 @@ class Plot_Cluster_Time_Series(object):
         """
         data = self.fill_na_ts()
         multi_ts = data.sort_values(by=['item_id', 'date'], ascending=[1, 1])[['item_id', 'qty']]
+        int_numer=multi_ts.shape[0] // multi_ts['item_id'].nunique()
+        multi_ts=multi_ts.groupby('item_id').filter(lambda x: x['item_id'].count() ==int_numer)
         data_array = np.array(multi_ts[['qty']]).reshape(multi_ts['item_id'].nunique(),multi_ts.shape[0] // multi_ts['item_id'].nunique())
         ts_norm = TimeSeriesScalerMeanVariance(mu=0.0, std=1.0).fit_transform(data_array)
         return ts_norm, multi_ts['item_id'].unique()
