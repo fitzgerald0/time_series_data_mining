@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2020/10/3 14:58
-# @Author  : jisheng.huang
+# @Author  : hjs
 # @File    : adfuller_test.py
 
 #this is example for spark udf run adfuller test
