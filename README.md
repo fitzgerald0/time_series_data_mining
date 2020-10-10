@@ -3,7 +3,7 @@
 同时个人csdn也会同步
 https://blog.csdn.net/fitzgerald0
 #
-最近更新时间为：2020-08-23
+最近更新时间为：2020-10-10
 
 #
 有几篇关于时间序列的文章
@@ -54,6 +54,14 @@ spark_prophet_demo.py为pyspark模型代码
 文章：https://blog.csdn.net/fitzgerald0/article/details/108188588
 
 代码：https://github.com/fitzgerald0/time_series_data_mining/blob/master/ts_shape.py
+
+【8】时间序列可预测性度量
+
+文章：https://blog.csdn.net/fitzgerald0/article/details/108995724
+
+代码：https://github.com/fitzgerald0/time_series_data_mining/blob/master/adfuller_test.py
+
+
 
 -------------------------------------------------------------------------------------
 一篇个人最近看书杂谈
