@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2020/8/19 23:23
-# @Author  : jisheng.huang
+# @Author  : hjs
 # @File    : ts_shape.py
 # @Software : PyCharm
 
