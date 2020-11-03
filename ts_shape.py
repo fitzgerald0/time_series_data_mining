@@ -134,7 +134,7 @@ def main():
         k_shape.append(i)
 
     dict_shape = dict(zip(k_shape, k_score))
-    best_shape = sorted(dict_shape.items(), key=lambda x: x[1], reverse=False)[0][0]
+    best_shape = sorted(dict_shape.items(), key=lambda x: x[1], reverse=True)[0][0]
     print('best_shape :',best_shape)
     fin_label = pcts.cal_k_shape(input_df,best_shape)
 
