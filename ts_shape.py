@@ -4,6 +4,11 @@
 # @File    : ts_shape.py
 # @Software : PyCharm
 
+"""
+写在最前面，有小伙伴反馈说给的数据量较大，自己运行起来较大
+所以在后面有加备注，只取部分数据计算就好。
+"""
+
 import numpy as np
 import pandas as pd
 from tslearn.clustering import KShape
@@ -121,6 +126,9 @@ def main():
     seed = 666
     data = pd.read_csv('./sale_df.csv',parse_dates=['date'])
     data = data[(data['date']>='2015-01-01')&(data['date']<'2015-02-01')]
+    
+    #有小伙伴反馈说给的数据量较大，自己运行起来较大
+    data=data[data['item_id'].isin(data['item_id'].unique()[:100])] #特意加一句，只取部分数据
     data = data[['item_id', 'qty', 'date']]
     print(data.head())
     pcts=Plot_Cluster_Time_Series(data,seed)
