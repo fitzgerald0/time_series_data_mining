@@ -153,6 +153,8 @@ def main():
 
 if __name__ == '__main__':
     fin_cluster = main()
+    #聚类结果输出到本地
+    fin_cluster.to_excel('k_shape_result.xlsx',index=False)
 
    
 
