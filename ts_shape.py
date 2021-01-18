@@ -112,14 +112,13 @@ class Plot_Cluster_Time_Series(object):
         ks = KShape(n_clusters=num_cluster, n_init=5, verbose=True, random_state=self.seed)
         y_pred = ks.fit_predict(data)
         for yi in range(num_cluster):
-            plt.subplot(num_cluster, 2, yi+1)
             for xx in data[y_pred == yi]:
                 plt.plot(xx.ravel(), "k-", alpha=.3)
             plt.plot(ks.cluster_centers_[yi].ravel(), "r-")
             plt.text(0.55, 0.85, 'Cluster %d' % (yi + 1),
                      transform=plt.gca().transAxes)
-        plt.tight_layout()
-        plt.show()
+            plt.tight_layout()
+            plt.show()
 
 
 def main():
