@@ -3,7 +3,7 @@
 同时个人csdn也会同步
 https://blog.csdn.net/fitzgerald0
 #
-最近更新时间为：2020-10-10
+最近更新时间为：2021-04-07
 
 #
 有几篇关于时间序列的文章
@@ -61,6 +61,9 @@ spark_prophet_demo.py为pyspark模型代码
 
 代码：https://github.com/fitzgerald0/time_series_data_mining/blob/master/adfuller_test.py
 
+
+【9】销量预测建模中常用的损失函数与模型评估指标
+文章：https://blog.csdn.net/fitzgerald0/article/details/115471489
 
 
 -------------------------------------------------------------------------------------
