@@ -3,7 +3,7 @@
 同时个人csdn也会同步
 https://blog.csdn.net/fitzgerald0
 #
-最近更新时间为：2021-04-07
+最近更新时间为：2021-04-30
 
 #
 有几篇关于时间序列的文章
@@ -66,7 +66,16 @@ spark_prophet_demo.py为pyspark模型代码
 文章：https://blog.csdn.net/fitzgerald0/article/details/115471489
 
 
+[10] PySpark时间序列数据统计描述，分布特性与内部特性
+https://blog.csdn.net/fitzgerald0/article/details/116090223
+
+[11]时间序列简单模型
+https://blog.csdn.net/fitzgerald0/article/details/115918790
+
+[12]PySpark机器学习特性选择
+https://blog.csdn.net/fitzgerald0/article/details/115876867
 -------------------------------------------------------------------------------------
+
 一篇个人最近看书杂谈
 -------------------------------------------------------------------------------------
 数据之外的代码
