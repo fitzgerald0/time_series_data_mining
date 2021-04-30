@@ -63,20 +63,21 @@ spark_prophet_demo.py为pyspark模型代码
 
 
 【9】销量预测建模中常用的损失函数与模型评估指标
+
 文章：https://blog.csdn.net/fitzgerald0/article/details/115471489
 
 
 [10] PySpark时间序列数据统计描述，分布特性与内部特性
 
-https://blog.csdn.net/fitzgerald0/article/details/116090223
+文章：https://blog.csdn.net/fitzgerald0/article/details/116090223
 
 [11]时间序列简单模型
 
-https://blog.csdn.net/fitzgerald0/article/details/115918790
+文章：https://blog.csdn.net/fitzgerald0/article/details/115918790
 
 [12]PySpark机器学习特性选择
 
-https://blog.csdn.net/fitzgerald0/article/details/115876867
+文章：https://blog.csdn.net/fitzgerald0/article/details/115876867
 -------------------------------------------------------------------------------------
 
 一篇个人最近看书杂谈
