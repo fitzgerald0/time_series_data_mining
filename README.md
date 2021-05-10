@@ -14,9 +14,10 @@ https://blog.csdn.net/fitzgerald0
 【1】TensorFlow Probability概率编程-时序模型
 
 [博客](https://blog.csdn.net/fitzgerald0/article/details/90274550)
-
-[程序](https://github.com/fitzgerald0/time_series_data_mining/blob/master/ts_sale_example.py)：
+[程序](https://github.com/fitzgerald0/time_series_data_mining/blob/master/ts_sale_example.py)
 [数据](https://github.com/fitzgerald0/time_series_data_mining/blob/master/ts_sale.csv)
+
+
 
 【2】本文介绍使用tsfresh库进行时序 freature extract,结合lasso进行建模；
 
