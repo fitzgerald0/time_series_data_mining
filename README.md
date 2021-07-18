@@ -10,7 +10,6 @@ https://blog.csdn.net/fitzgerald0
 最近更新时间为：2021-05-09
 
 
-
 【1】TensorFlow Probability概率编程-时序模型
 
 [博客](https://blog.csdn.net/fitzgerald0/article/details/90274550)
@@ -60,9 +59,9 @@ https://blog.csdn.net/fitzgerald0
 
 【8】k-shape时间序列聚类(tslearn)
 
-文章：https://blog.csdn.net/fitzgerald0/article/details/108188588
+[文章](https://blog.csdn.net/fitzgerald0/article/details/108188588)
 
-代码：https://github.com/fitzgerald0/time_series_data_mining/blob/master/ts_shape.py
+[代码] (https://github.com/fitzgerald0/time_series_data_mining/blob/master/ts_shape.py)
 
 
 
