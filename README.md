@@ -74,7 +74,7 @@ https://blog.csdn.net/fitzgerald0
 
 
 
-**以下几篇为PySpark销量预测实战系列九篇文章**
+**以下为PySpark销量预测实战系列九篇文章**
 
 [1.PySpark与DataFrame简介](https://blog.csdn.net/fitzgerald0/article/details/116455182)
 
@@ -93,7 +93,6 @@ https://blog.csdn.net/fitzgerald0
 [8.机器学习调参方法](https://blog.csdn.net/fitzgerald0/article/details/116452338)
 
 [9.销量预测建模中常用的损失函数与模型评估指标](https://blog.csdn.net/fitzgerald0/article/details/115471489)
-
 
 
 
