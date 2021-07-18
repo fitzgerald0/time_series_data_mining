@@ -61,7 +61,7 @@ https://blog.csdn.net/fitzgerald0
 
 [文章](https://blog.csdn.net/fitzgerald0/article/details/108188588)
 
-[代码] (https://github.com/fitzgerald0/time_series_data_mining/blob/master/ts_shape.py)
+[代码](https://github.com/fitzgerald0/time_series_data_mining/blob/master/ts_shape.py)
 
 
 
